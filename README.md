@@ -1,15 +1,5 @@
 # LocalGPT: Secure, Local Conversations with Your Documents 🌐
 
-<p align="center">
-<a href="https://trendshift.io/repositories/2947" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2947" alt="PromtEngineer%2FlocalGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
-
-[![GitHub Stars](https://img.shields.io/github/stars/PromtEngineer/localGPT?style=social)](https://github.com/PromtEngineer/localGPT/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/PromtEngineer/localGPT?style=social)](https://github.com/PromtEngineer/localGPT/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/PromtEngineer/localGPT)](https://github.com/PromtEngineer/localGPT/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/PromtEngineer/localGPT)](https://github.com/PromtEngineer/localGPT/pulls)
-[![License](https://img.shields.io/github/license/PromtEngineer/localGPT)](https://github.com/PromtEngineer/localGPT/blob/main/LICENSE)
-
 🚨🚨 You can run localGPT on a pre-configured [Virtual Machine](https://bit.ly/localGPT). Make sure to use the code: PromptEngineering to get 50% off. I will get a small commision!
 
 **LocalGPT** is an open-source initiative that allows you to converse with your documents without compromising your privacy. With everything running locally, you can be assured that no data ever leaves your computer. Dive into the world of secure, local document interactions with LocalGPT.
@@ -24,11 +14,6 @@
 - **Graphical Interface**: LocalGPT comes with two GUIs, one uses the API and the other is standalone (based on streamlit).
 - **GPU, CPU, HPU & MPS Support**: Supports multiple platforms out of the box, Chat with your data using `CUDA`, `CPU`, `HPU (Intel® Gaudi®)` or `MPS` and more!
 
-## Dive Deeper with Our Videos 🎥
-- [Detailed code-walkthrough](https://youtu.be/MlyoObdIHyo)
-- [Llama-2 with LocalGPT](https://youtu.be/lbFmceo4D5E)
-- [Adding Chat History](https://youtu.be/d7otIM_MCZs)
-- [LocalGPT - Updated (09/17/2023)](https://youtu.be/G_prHSKX9d4)
 
 ## Technical Details 🛠️
 By selecting the right local models and the power of `LangChain` you can run the entire RAG pipeline locally, without any data leaving your environment, and with reasonable performance.
@@ -37,22 +22,13 @@ By selecting the right local models and the power of `LangChain` you can run the
 - `run_localGPT.py` uses a local LLM to understand questions and create answers. The context for the answers is extracted from the local vector store using a similarity search to locate the right piece of context from the docs.
 - You can replace this local LLM with any other LLM from the HuggingFace. Make sure whatever LLM you select is in the HF format.
 
-This project was inspired by the original [privateGPT](https://github.com/imartinez/privateGPT).
-
-## Built Using 🧩
-- [LangChain](https://github.com/hwchase17/langchain)
-- [HuggingFace LLMs](https://huggingface.co/models)
-- [InstructorEmbeddings](https://instructor-embedding.github.io/)
-- [LLAMACPP](https://github.com/abetlen/llama-cpp-python)
-- [ChromaDB](https://www.trychroma.com/)
-- [Streamlit](https://streamlit.io/)
 
 # Environment Setup 🌍
 
 1. 📥 Clone the repo using git:
 
 ```shell
-git clone https://github.com/PromtEngineer/localGPT.git
+git clone https://github.com/stardev913/LocalGPT.git
 ```
 
 2. 🐍 Install [conda](https://www.anaconda.com/download) for virtual environment management. Create and activate a new virtual environment.
